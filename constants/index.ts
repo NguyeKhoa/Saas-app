@@ -1,6 +1,6 @@
 export const subjects = [
   "maths",
-  "language",
+  "vocabulary",
   "science",
   "history",
   "coding",
@@ -8,12 +8,12 @@ export const subjects = [
 ];
 
 export const subjectsColors = {
-  science: "#E5D0FF",
-  maths: "#FFDA6E",
-  language: "#BDE7FF",
-  coding: "#FFC8E4",
-  history: "#FFECC8",
-  economics: "#C8FFDF",
+  Science: "#E5D0FF",
+  Maths: "#FFDA6E",
+  Vocabulary: "#BDE7FF",
+  Coding: "#FFC8E4",
+  History: "#FFECC8",
+  Economics: "#C8FFDF",
 };
 
 export const voices = {
@@ -24,47 +24,47 @@ export const voices = {
 export const recentSessions = [
   {
     id: "1",
-    subject: "science",
-    name: "Neura the Brainy Explorer",
+    subject: "Science",
+    name: "Newra the Brainy Explorer",
     topic: "Neural Network of the Brain",
     duration: 45,
     color: "#E5D0FF",
   },
   {
     id: "2",
-    subject: "maths",
-    name: "Countsy the Number Wizard",
+    subject: "Maths",
+    name: "County the Number Wizard",
     topic: "Derivatives & Integrals",
     duration: 30,
     color: "#FFDA6E",
   },
   {
     id: "3",
-    subject: "language",
-    name: "Verba the Vocabulary Builder",
-    topic: "English Literature",
+    subject: "Vocabulary",
+    name: "Gramsy the Grammar Magic",
+    topic: "Pronouncing and Writing",
     duration: 30,
     color: "#BDE7FF",
   },
   {
     id: "4",
-    subject: "coding",
-    name: "Codey the Logic Hacker",
-    topic: "Intro to If-Else Statements",
+    subject: "Coding",
+    name: "Codey the IT Detactive",
+    topic: "Understand the basic codes",
     duration: 45,
     color: "#FFC8E4",
   },
   {
     id: "5",
-    subject: "history",
-    name: "Memo, the Memory Keeper",
-    topic: "World Wars: Causes & Consequences",
+    subject: "History",
+    name: "Historia the Time Observer",
+    topic: "Every layer of our history",
     duration: 15,
     color: "#FFECC8",
   },
   {
     id: "6",
-    subject: "economics",
+    subject: "Economics",
     name: "The Market Maestro",
     topic: "The Basics of Supply & Demand",
     duration: 10,
